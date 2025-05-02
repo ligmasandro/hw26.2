@@ -3,6 +3,7 @@ body {
   padding-right: 200px;
   padding-left: 200px;
   font-family: sans-serif;
+  
 }
 .main-container {
   display: flex;
@@ -11,9 +12,10 @@ body {
 }
 
 .head-box {
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
   align-items: center;
+  gap: 550px;
 }
 .mini-div {
   background-color: hsl(234, 14%, 29%);
@@ -34,7 +36,7 @@ h1 {
   color: hsl(240, 26%, 92%);
   border: 2px solid hsl(234, 14%, 29%);
   width: 800px;
-  height: 200px;
+  height: 150px;
   border-radius: 12px;
   padding: 10px;
   font-size: 18px;
@@ -56,12 +58,62 @@ h1 {
 }
 .goth-mommy {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 .clr-divs {
   width: 256px;
-  height: 223px;
+  height: 100px;
+  overflow: hidden;
+  padding: 3px;
+  border-radius: 10px;
+  display: flex;
+  
 }
 .purp {
   background-color: #c27cf8;
+  display: flex;
+  
+}
+.yell{
+  display: flex;
+  background-color: yellow;
+}
+.redy{
+  display: flex;
+  background-color: red;
+}
+.button-num{
+  font-size: 30px;
+}
+.patternimg{
+  margin-left: 40px;
+}
+.ltr-div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.line{
+  width: 700px;
+  background-color:#bd75f3;
+  height: 10px;
+  color: transparent;
+  border-radius: 10pc;
+  
+  
+}
+.ltr-line-div{
+  display: flex;
+  gap: 20px;
+}
+.ltr-density{
+  color: white;
+  margin-right: 640px;
+ 
+}
+.letter-sign{
+  color: white;
+}
+.prcnt{
+  color: white;
 }
